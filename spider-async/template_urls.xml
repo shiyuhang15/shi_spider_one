@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urls>
+	<start>
+		<url>http://www.chinacoal-safety.gov.cn/mkaj/</url>
+	</start>
+	<navi>
+		<!-- http://www.chinacoal-safety.gov.cn/mkaj/jszb/mkaj_jszb.htm
+		-->
+		<regex>https?://www\.chinacoal-safety\.gov\.cn/mkaj/[a-z]+/mkaj_[a-z]+\.htm</regex>
+	</navi>
+</urls>

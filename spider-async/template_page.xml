@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+	<fields>
+		<field name="title" required="1">
+			<extractor>p.MsoNormal:nth-child(2) > b:nth-child(2) > span</extractor>
+		</field>
+		<field name="content" required="1">
+			<extractor method="2">p.MsoNormal:nth-child(5)</extractor>
+		</field>
+		<field name="description" disableAuto="1"/>
+		<field name="keywords" disableAuto="1"/>
+	</fields>
+</page>
